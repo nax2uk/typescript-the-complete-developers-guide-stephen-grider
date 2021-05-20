@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@types/faker": "^5.5.5",
+    "@types/googlemaps": "^3.43.3",
+    "axios": "^0.21.1",
+    "faker": "^5.5.3"
+  },
+  "name": "first-typescript-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nax2uk/first-typescript-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nax2uk/first-typescript-app/issues"
+  },
+  "homepage": "https://github.com/nax2uk/first-typescript-app#readme",
+  "description": ""
+}
