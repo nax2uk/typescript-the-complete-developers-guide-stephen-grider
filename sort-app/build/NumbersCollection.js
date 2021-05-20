@@ -13,9 +13,7 @@ var NumbersCollection = /** @class */ (function () {
         configurable: true
     });
     NumbersCollection.prototype.compare = function (leftIndex, rightIndex) {
-        if (this.data[leftIndex] > this.data[rightIndex])
-            return true;
-        return false;
+        return (this.data[leftIndex] > this.data[rightIndex]);
     };
     NumbersCollection.prototype.swap = function (leftIndex, rightIndex) {
         var temp = this.data[leftIndex];
